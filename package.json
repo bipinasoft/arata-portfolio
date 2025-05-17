@@ -1,0 +1,23 @@
+{
+    "name": "arata",
+    "version": "1.0.0",
+    "description": "Professional profile website",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "rimraf dist && parcel build index.html --public-url ./",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [
+        "portfolio",
+        "profile",
+        "pharmaceutical"
+    ],
+    "author": "A.T. Mahapatra",
+    "license": "ISC",
+    "devDependencies": {
+        "gh-pages": "^6.3.0",
+        "parcel": "^2.9.3",
+        "rimraf": "^6.0.1"
+    }
+}
