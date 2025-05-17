@@ -524,12 +524,13 @@ a:hover {
 
 /* Skill Bars */
 .skill-bar {
-    height: 20px;
+    height: 30px;
     background: #e9ecef;
     border-radius: 5px;
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
+    color:#ffffff;
 }
 
 .skill-progress {
@@ -539,6 +540,7 @@ a:hover {
     border-radius: 5px;
     width: 0;
     transition: width 1.5s ease-in-out;
+    padding: 0px 0 0 10px;
 }
 
 /* Enhanced Navigation */
